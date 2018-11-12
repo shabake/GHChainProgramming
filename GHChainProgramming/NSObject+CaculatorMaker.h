@@ -1,5 +1,5 @@
 //
-//  GHChainProgramming.h
+//  NSObject+CaculatorMaker.h
 //  GHChainProgramming
 //
 //  Created by mac on 2018/11/12.
@@ -9,9 +9,12 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
+@class CaculatorMaker;
 
-@interface GHChainProgramming : NSObject
 
+@interface NSObject (CaculatorMaker)
+//计算
++ (int)makeCaculators:(void(^)(CaculatorMaker *make))caculatorMaker;
 @end
 
 NS_ASSUME_NONNULL_END
