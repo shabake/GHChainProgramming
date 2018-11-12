@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "CaculatorMaker.h"
-#import "NSObject+CaculatorMaker.h"
 
 @interface ViewController ()
 
@@ -19,11 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     #pragma mark - 链式编程
-    int iResult = [NSObject makeCaculators:^(CaculatorMaker *make) {
+    CaculatorMaker *caculator = [CaculatorMaker makeCaculators:^(CaculatorMaker *make) {
         make.add(1).divide(2).divide(2).sub(2);
     }];
     
-    NSLog(@"iResult%d",iResult);
+    NSLog(@"iResult%d",caculator.iResult);
 }
 
 

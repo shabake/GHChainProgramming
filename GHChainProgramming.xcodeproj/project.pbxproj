@@ -13,7 +13,6 @@
 		04F1990B2199278200A64E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F1990A2199278200A64E3C /* Assets.xcassets */; };
 		04F1990E2199278200A64E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F1990C2199278200A64E3C /* LaunchScreen.storyboard */; };
 		04F199112199278200A64E3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F199102199278200A64E3C /* main.m */; };
-		04F1991C21992BC700A64E3C /* NSObject+CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F1991B21992BC700A64E3C /* NSObject+CaculatorMaker.m */; };
 		04F1991F21992BF600A64E3C /* CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F1991E21992BF600A64E3C /* CaculatorMaker.m */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +27,6 @@
 		04F1990D2199278200A64E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04F1990F2199278200A64E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F199102199278200A64E3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04F1991A21992BC700A64E3C /* NSObject+CaculatorMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+CaculatorMaker.h"; sourceTree = "<group>"; };
-		04F1991B21992BC700A64E3C /* NSObject+CaculatorMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CaculatorMaker.m"; sourceTree = "<group>"; };
 		04F1991D21992BF600A64E3C /* CaculatorMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaculatorMaker.h; sourceTree = "<group>"; };
 		04F1991E21992BF600A64E3C /* CaculatorMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaculatorMaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,8 +65,6 @@
 				04F199022199278000A64E3C /* AppDelegate.m */,
 				04F199042199278000A64E3C /* ViewController.h */,
 				04F199052199278000A64E3C /* ViewController.m */,
-				04F1991A21992BC700A64E3C /* NSObject+CaculatorMaker.h */,
-				04F1991B21992BC700A64E3C /* NSObject+CaculatorMaker.m */,
 				04F1991D21992BF600A64E3C /* CaculatorMaker.h */,
 				04F1991E21992BF600A64E3C /* CaculatorMaker.m */,
 				04F199072199278000A64E3C /* Main.storyboard */,
@@ -153,7 +148,6 @@
 			files = (
 				04F199062199278000A64E3C /* ViewController.m in Sources */,
 				04F1991F21992BF600A64E3C /* CaculatorMaker.m in Sources */,
-				04F1991C21992BC700A64E3C /* NSObject+CaculatorMaker.m in Sources */,
 				04F199112199278200A64E3C /* main.m in Sources */,
 				04F199032199278000A64E3C /* AppDelegate.m in Sources */,
 			);

@@ -11,6 +11,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CaculatorMaker : NSObject
+
++ (CaculatorMaker *)makeCaculators:(void(^)(CaculatorMaker *make))caculatorMaker;
+
+
 @property (nonatomic, assign) int iResult;
 
 //加法

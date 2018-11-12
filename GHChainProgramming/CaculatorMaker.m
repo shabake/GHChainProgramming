@@ -9,6 +9,13 @@
 #import "CaculatorMaker.h"
 
 @implementation CaculatorMaker
+
+//计算
++ (CaculatorMaker *)makeCaculators:(void(^)(CaculatorMaker *make))block {
+    CaculatorMaker *mgr = [[CaculatorMaker alloc] init];
+    block(mgr);
+    return mgr;
+}
 - (CaculatorMaker *(^)(int))add {
     return ^(int value)
     {
